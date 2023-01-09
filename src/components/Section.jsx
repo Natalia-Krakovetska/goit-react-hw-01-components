@@ -1,9 +1,13 @@
-import PropTypes from 'prop-types';
-export default function Section( props, children ) {
-    return <div>{children}</div>
-};
+// import PropTypes from 'prop-types';
+// export default function Section() {
+//     return (
+//         <div>
 
-Section.propTypes = {
-    children: PropTypes.node,
-}
+//         </div>
+//     )
+// }
+
+//  Section.propTypes = {
+// children: PropTypes.node,
+// }
 

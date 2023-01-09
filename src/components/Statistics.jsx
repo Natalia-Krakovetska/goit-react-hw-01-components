@@ -1,15 +1,27 @@
 import PropTypes from 'prop-types';
-export default function Statistics({ title, stats }) {
+
+export default function Statistics ({ title, stats: { id, label, percentage } }) {
   return (
-    <section className="statistics">
-  {title && <h2 className="title">{title}</h2>}
-  <ul className="stat-list">
-  {stats.map(item => (
-    <li className="item" key = {item.id}>
-      <span className="label">{stats.label}</span>
-      <span className="percentage">{stats.percentage}</span>
+    <section class="statistics">
+  {title && <h2 class="title">{title}</h2>}
+
+  <ul class="stat-list">
+    <li class="item" key={id}>
+      <span class="label">{label}</span>
+      <span class="percentage">{percentage}</span>
     </li>
-  )).join('')}
+    <li class="item">
+      <span class="label">{label}</span>
+      <span class="percentage">{percentage}</span>
+    </li>
+    <li class="item">
+      <span class="label">{label}</span>
+      <span class="percentage">{percentage}</span>
+    </li>
+    <li class="item">
+      <span class="label">{label}</span>
+      <span class="percentage">{percentage}</span>
+    </li>
   </ul>
 </section>
 )

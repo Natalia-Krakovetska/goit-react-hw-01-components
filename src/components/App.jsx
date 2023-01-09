@@ -1,7 +1,7 @@
-import Section from './Section';
+// import Section from './Section';
 import user from '../data/user.json';
 import Profile from './Profile';
-import Statistics from '../data/data.json';
+import Statistics from './Statistics';
 import data from '../data/data.json';
 
 
@@ -17,8 +17,7 @@ export const App = () => {
         fontSize: 40,
         color: '#010101'
       }}
-    >
-      <Section>
+    > 
       <Profile
   username={user.username}
   tag={user.tag}
@@ -26,11 +25,8 @@ export const App = () => {
   avatar={user.avatar}
   stats={user.stats}
   />
-
-      </Section>
-      <Section>
-      <Statistics title="Upload stats" stats={data} />
-      </Section> 
+    <Statistics title="Upload stats" stats={data} />
     </div>
+    
     );
 };
