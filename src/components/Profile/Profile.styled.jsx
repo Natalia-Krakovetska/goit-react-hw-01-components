@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 export const ProfileCard = styled.div`
-height: 500px;
+heigth: 300px;
 border: 2px solid black; 
 text-align: center;
 padding-top:20px;

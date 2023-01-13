@@ -5,6 +5,7 @@ height: 150px;
 border: 2px solid black; 
 text-align: center;
 padding-top:30px;
+margin-bottom: 50px;
 width: 300px;
 
 `;
