@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { TransactinHistory, HeadingColumn } from './TransactionHistory.styled';
+import { TransactinHistory, HeadingColumn, TableString } from './TransactionHistory.styled';
 
 
 export default function TransactionHistory({ items }){
@@ -16,9 +16,9 @@ export default function TransactionHistory({ items }){
         <tbody>
           {items.map(item => 
           <tr key={item.id}>
-            <td>{item.type}</td>
-            <td>{item.amount}</td>
-            <td>{item.currency}</td>
+            <TableString>{item.type}</TableString>
+            <TableString>{item.amount}</TableString>
+            <TableString>{item.currency}</TableString>
           </tr>
               )
             }      

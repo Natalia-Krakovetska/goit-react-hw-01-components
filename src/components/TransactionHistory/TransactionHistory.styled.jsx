@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 export const TransactinHistory = styled.table`
-width: 600px;
+width: 800px;
 text-align: center;
 border-collapse: collapse;
 border: 2px solid #808080; 
@@ -10,4 +10,11 @@ text-align: center;
 color: #ffffff;
 background-color: #00ffff;
 border: 2px solid #808080; 
+
+padding: 20px;
+`;
+export const TableString = styled.td`
+border: 2px solid #808080; 
+padding: 15px;
+color:  #808080;
 `;

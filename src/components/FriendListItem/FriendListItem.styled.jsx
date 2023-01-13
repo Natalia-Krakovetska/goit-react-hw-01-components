@@ -6,7 +6,7 @@ justify-content: flex-start;
 align-items: center;
 width: 100%;
 padding: 20px;
-border: 2px solid black; 
+border: 2px solid #808080; 
 box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
 `;
 export const StatusPoint = styled.span`
@@ -21,4 +21,5 @@ background-color: ${prop => { return !prop.isOffline ? 'green' : 'red'}};
 export const FriendName = styled.span`
 font-size: 36px;
 font-weight: 600;
+color: #808080;
 `;
