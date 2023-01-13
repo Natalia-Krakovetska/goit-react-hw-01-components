@@ -1,10 +1,5 @@
 import PropTypes from 'prop-types';
-import {StatisticsWrapper} from './Statistics.styled';
-import {StatisticsList} from './Statistics.styled';
-import {StatisticsItem} from './Statistics.styled';
-import {StatisticsTitle} from './Statistics.styled';
-
-
+import { StatisticsWrapper, StatisticsList, StatisticsItem, StatisticsTitle } from './Statistics.styled';
 export default function Statistics ({ title, stats }) {
   return (
     <StatisticsWrapper>

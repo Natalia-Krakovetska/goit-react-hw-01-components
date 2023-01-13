@@ -1,11 +1,5 @@
 import PropTypes from 'prop-types';
-import {ProfileCard} from './Profile.styled';
-import {ProfileImg} from './Profile.styled';
-import {DescriptionWrapper} from './Profile.styled';
-import {Name} from './Profile.styled';
-import {StatsList} from './Profile.styled';
-import {StatsItem} from './Profile.styled';
-
+import { ProfileCard,ProfileImg, DescriptionWrapper, Name, StatsList, StatsItem } from './Profile.styled';
 export default function Profile ({ avatar, username, tag, location, stats }) {
    return (   
  <ProfileCard>

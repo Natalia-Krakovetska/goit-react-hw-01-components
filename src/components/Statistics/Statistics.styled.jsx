@@ -2,7 +2,7 @@ import styled from 'styled-components';
 // import getRandomHexColor from 'js/randomColor';
 export const  StatisticsWrapper = styled.section`
 height: 150px;
-border: 2px solid black; 
+border: 1px solid black; 
 text-align: center;
 padding-top:30px;
 margin-bottom: 50px;
@@ -11,7 +11,7 @@ width: 300px;
 `;
 export const  StatisticsTitle = styled.h2`
 margin-top: 0;
-margin-bottom: 40px;
+margin-bottom: 42px;
 color: #808080;
 font-weight: 800;
 `;
@@ -26,6 +26,7 @@ margin: 0px;
 height: 80px;
 background-color: #C0C0C0;
 
+
 `;
 
 export const  StatisticsItem = styled.li`
@@ -36,5 +37,5 @@ justify-content: center;
 flex-direction: column;
 width: 100%;
 height: 100%;
-border: 2px solid #808080; 
+border: 1px solid #808080; 
 `;

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 export const ProfileCard = styled.div`
 heigth: 300px;
-border: 2px solid black; 
+border: 1px solid black; 
 text-align: center;
 padding-top:20px;
 width: 300px;
@@ -46,5 +46,5 @@ justify-content: center;
 flex-direction: column;
 width: 100%;
 height: 100%;
-border: 2px solid #808080; 
+border: 1px solid #808080; 
 `;
